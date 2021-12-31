@@ -13,10 +13,9 @@ import {
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
-import Tester from './Tester';
 import Features from './Features';
 import Stackie from './Stackie';
-import Contact from './Contact';
+import Contacts from './Contacts';
 import coverimages from './coverimages.jpg'; 
 
 

@@ -1,29 +1,34 @@
 import { Box, Badge } from '@chakra-ui/react'
-import Contact from './Contact';
+import Contacts from './Contacts';
 
 
 function Features(props) {
-    return <Box fontSize="2xl" borderWidth='1px' borderRadius='lg' borderColor="purple.200" boxSize = "600px">
+    return <Box fontSize="2xl" borderWidth='5px' borderRadius='lg' borderColor="purple.200" boxSize = "600px">
     <Box mt='1'
           fontWeight='semibold'
           as='h5'
           lineHeight='tight'
           isTruncated> Shriya Mandal <br></br>
       </Box>
-      <Box fontSize="lg"> CS and Geology Student at UNC-Chapel Hill 2024 </Box>
-      <Box fontSize="md">
-        Hi there! 👋
-        <br></br>
-       I'm a research assistant at UNC's CS department and a teaching assistant for UNC Girls Who Code.
-       I was also an organizer for HackNC 2021, and an organizer for Pearl Hacks 2022!
-       <br></br>
-       Incoming technology intern at CarMax for the summer of 2022. I'm open to internship 
-       opportunities!
+      <Box fontSize="lg"> CS+Geology Student @ UNC-Chapel Hill </Box>
+      <Box><Contacts></Contacts></Box>
+
+      <Box textAlign="center" fontSize="md">
+        Hi there! 👋 <br></br>
+        Here's a little about me: <br></br>
+        </Box>
+        <Box textAlign="left" fontSize="md">
+        ‎ • Research assistant at UNC's Computer Science Department <br></br>
+        ‎ • HackNC 2021 organizer and Pearl Hacks 2022 organizer <br></br>
+        ‎ • Aspiring software engineer and open to internships! <br></br>
+        ‎ • Incoming tech intern @ Carmax for summer of 2022 <br></br>
+        ‎ • Former copyediter for The Daily Tar Heel <br></br>
+        ‎ • Interested in travel, the outdoors and language learning! <br></br>
       </Box>
       <Box fontSize="sm">
         <Badge borderRadius='full' px='2' colorScheme='blue'>
             Python
-          </Badge> ‎
+          </Badge> 
           <Badge borderRadius='full' px='2' colorScheme='purple'>
             Java
           </Badge> ‎
@@ -67,7 +72,6 @@ function Features(props) {
             IntelliJ
           </Badge>
       </Box> 
-      <Box> <br></br> <Contact></Contact></Box>
   </Box>
   }
   
