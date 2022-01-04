@@ -21,7 +21,7 @@ function Features(props) {
         Here's a little about me: <br></br>
         </Box>
         <Box textAlign="left" fontSize="md">
-         • Research assistant at UNC's Computer Science Department <br></br>
+        ‎ • Research assistant at UNC's Computer Science Department <br></br>
         ‎ • HackNC 2021 organizer and Pearl Hacks 2022 organizer <br></br>
         ‎ • Aspiring software engineer and open to internships! <br></br>
         ‎ • Incoming tech intern @ Carmax for summer of 2022 <br></br>

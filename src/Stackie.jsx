@@ -8,12 +8,12 @@ import {
   } from '@chakra-ui/react'
 
 function Stackie(props) {
-    return <Accordion allowToggle>
+    return <Accordion allowToggle id="Projects">
     <AccordionItem>
       <h2>
         <AccordionButton>
           <Box flex='1' textAlign='left'>
-            Experience
+            Projects
           </Box>
           <AccordionIcon />
         </AccordionButton>
