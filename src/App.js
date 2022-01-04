@@ -16,7 +16,7 @@ import { Logo } from './Logo';
 import Features from './Features';
 import Stackie from './Stackie';
 import Contacts from './Contacts';
-import coverimages from './coverimages.jpg'; 
+import coverimagey from './coverimagey.jpeg'; 
 
 
 function App() {
