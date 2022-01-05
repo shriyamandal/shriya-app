@@ -17,7 +17,7 @@ import {
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 import Features from './Features';
-import Stackie from './Stackie';
+import Projects from './Projects';
 import Contacts from './Contacts';
 import NavBar from './NavBar';
 import ContactsBar from './ContactsBar';
@@ -31,7 +31,7 @@ function App() {
     <ChakraProvider theme={theme}>
       <Box>‎</Box>
       <Flex>
-    <Box w='140px' h='10' bg='transparent' fontsize="2xl"> ‎ ‎ Shriya Mandal </Box> 
+    <Box w='160px' h='10' bg='transparent' fontsize="2xl" fontWeight="bold" > ‎ ‎ Shriya Mandal </Box> 
     <Spacer />
     <Box w='300px' h='10' bg='transparent'> <NavBar> </NavBar></Box>
     <Spacer />
@@ -42,7 +42,7 @@ function App() {
         
           <VStack spacing={8}>
             <Features/>
-            <Stackie></Stackie>
+            <Projects></Projects>
             <ContactsBar></ContactsBar>
           </VStack>
         </Grid>

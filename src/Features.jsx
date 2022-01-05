@@ -3,7 +3,7 @@ import Contacts from './Contacts';
 import coverimagey from './coverimagey.jpeg'; 
 
 function Features(props) {
-    return <Box fontSize="2xl" borderWidth='5px' borderRadius='lg' borderColor="purple.200" boxSize = "600px">
+    return <Box fontSize="2xl" borderWidth='5px' borderRadius='lg' borderColor="purple.200" boxSize = "550px">
    <Box> ‎ </Box>
     <Center><br></br><img src={coverimagey} alt="Cover" /></Center>
     <Box mt='1'
@@ -24,7 +24,6 @@ function Features(props) {
         ‎ • Research assistant at UNC's Computer Science Department <br></br>
         ‎ • HackNC 2021 organizer and Pearl Hacks 2022 organizer <br></br>
         ‎ • Aspiring software engineer and open to internships! <br></br>
-        ‎ • Incoming tech intern @ Carmax for summer of 2022 <br></br>
         ‎ • Interested in travel, the outdoors and language learning! <br></br>
       </Box>
       <Box fontSize="sm">
