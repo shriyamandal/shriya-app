@@ -7,7 +7,7 @@ import { FiGithub } from 'react-icons/fi'
 function Contacts(props) {
     return <Button colorScheme='transparent'>
         <Link
-              color="purple.600"
+              color="blue.600"
               href="https://www.linkedin.com/in/shriyamandal/"
               fontSize="sm"
               target="_blank"
@@ -18,7 +18,7 @@ function Contacts(props) {
             <br></br> xx
 
         <Link
-              color="purple.600"
+              color="blue.600"
               href="https://github.com/shriyamandal"
               fontSize="sm"
               target="_blank"
@@ -28,7 +28,7 @@ function Contacts(props) {
             </Link>
             <br></br> xx
             <Link
-              color="purple.600"
+              color="blue.600"
               href="mailto:shriyamandal2002@gmail.com"
               fontSize="sm"
               target="_blank"

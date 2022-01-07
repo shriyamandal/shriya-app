@@ -18,20 +18,18 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 import Features from './Features';
 import Projects from './Projects';
-import Contacts from './Contacts';
+import Footer from './Footer';
 import NavBar from './NavBar';
 import ContactsBar from './ContactsBar';
 
-
-import coverimagey from './coverimagey.jpeg'; 
 
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box>‎</Box>
-      <Flex>
-    <Box w='160px' h='10' bg='transparent' fontsize="2xl" fontWeight="bold" > ‎ ‎ Shriya Mandal </Box> 
+      <Box bg="blue.100">‎</Box>
+      <Flex bg="blue.100">
+    <Box w='250px' h='10' bg='transparent' fontsize="3xl" fontWeight="bold" fontFamily="sans-serif"> ‎ ‎ Shriya Mandal </Box> 
     <Spacer />
     <Box w='300px' h='10' bg='transparent'> <NavBar> </NavBar></Box>
     <Spacer />
@@ -44,6 +42,7 @@ function App() {
             <Features/>
             <Projects></Projects>
             <ContactsBar></ContactsBar>
+            <Footer></Footer>
           </VStack>
         </Grid>
       </Box>

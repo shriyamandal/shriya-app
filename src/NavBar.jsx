@@ -5,28 +5,28 @@ import ContactsBar from './ContactsBar';
 function NavBar(props) {
     return <Box id="About"> 
         <Link
-              color="purple.500"
+              // color="blue.500"
               fontWeight = "bold"
               href="#About"
-              fontSize="lg"
+              fontSize="md"
             >
               About
             </Link>
             ‎ ⁕ ‎
             <Link
-              color="purple.600"
+              // color="blue.600"
               fontWeight = "bold"
               href="#Projects"
-              fontSize="lg"
+              fontSize="md"
             >
               Projects
             </Link>
             ‎ ⁕ ‎
             <Link
-              color="purple.500"
+              // color="blue.500"
               fontWeight = "bold"
               href="#ContactsBar"
-              fontSize="lg"
+              fontSize="md"
             >
               Contact
             </Link>
