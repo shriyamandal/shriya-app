@@ -11,12 +11,11 @@ import { FiGithub } from 'react-icons/fi'
 
 
 function Projects(props) {
-    return <Box id="Projects">
+    return <Box id="Projects" p={5}>
       <br></br>
-      <Center fontSize="2xl" fontWeight="bold"> Projects </Center>
-    <Box fontSize='md' textAlign = "left" > Here is a selection of a few projects I have completed.
-    The code for the project I have been working on for my research and the Monty Python bridge scene
-    is available upon request. </Box>
+      <Center fontSize="2xl" fontWeight="bold" color="blue.500"> Projects </Center>
+    <Box fontSize='md' textAlign = "left"  fontWeight="semibold"> Below are some projects that I have been working on or completed!
+    The code for my research and Monty Python bridge scene project is available upon request. </Box>
     <br></br>
     <Center>
     <Box bg='blue.100' w='80%' p={4} color='black'>
@@ -36,8 +35,8 @@ function Projects(props) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon as={FiGithub} w={6} h={6} /> 
-              Access the GitHub repository
+              <Icon as={FiGithub} w={6} h={6} />
+               Access the GitHub repository!
             </Link> 
 </Box>
 
@@ -58,13 +57,13 @@ function Projects(props) {
 
 
 <Box bg='blue.100' w='80%' p={4} color='black'>
-  <Box fontSize="lg" fontWeight="bold"> My Personal Website </Box>
-  <Box textAlign="left" fontSize="md" fontStyle="italic"> My personal website (which you're on now!) that 
-  has been fully customized for my  needs. </Box>
+  <Box fontSize="lg" fontWeight="bold"> State by State (work in progress) </Box>
+  <Box textAlign="left" fontSize="md" fontStyle="italic"> A fun application which returns different maps of the 
+  United States and quizzes on the user on what the map represents </Box>
   <Box textAlign="left" fontSize="md"> </Box>
   <UnorderedList textAlign="left" fontSize="md">
     <ListItem> Utilized JavaScript, HTML, React, Chakra UI, Netlify and VSCode. </ListItem>
-    <ListItem> Created in order to showcase my work as well as introduce myself! </ListItem>
+    <ListItem> A project based on my interests: compares things state by state by education, abortion access and more. </ListItem>
   </UnorderedList>
   <Link
               color="blue.600"
@@ -74,7 +73,7 @@ function Projects(props) {
               rel="noopener noreferrer"
             >
               <Icon as={FiGithub} w={6} h={6} /> 
-              Access the GitHub repository
+              Access the GitHub repository!
             </Link> 
 </Box>
 </Center>

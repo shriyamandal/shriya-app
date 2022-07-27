@@ -9,43 +9,55 @@ function Badges(props) {
         Java
       </Badge> ‎
       <Badge borderRadius='full' px='2' colorScheme='pink'>
+        C#
+      </Badge> ‎
+      <Badge borderRadius='full' px='2' colorScheme='yellow'>
         JavaScript
       </Badge> ‎
-      <Badge borderRadius='full' px='2' colorScheme='yellow'>
+      <Badge borderRadius='full' px='2' colorScheme='green'>
         HTML
       </Badge> ‎
-      <Badge borderRadius='full' px='2' colorScheme='green'>
+      <Badge borderRadius='full' px='2' colorScheme='blue'>
         CSS
       </Badge> ‎
-      <Badge borderRadius='full' px='2' colorScheme='blue'>
+      <Badge borderRadius='full' px='2' colorScheme='purple'>
         Tkinter
       </Badge> ‎
-      <Badge borderRadius='full' px='2' colorScheme='purple'>
+      <Badge borderRadius='full' px='2' colorScheme='pink'>
         Java Swing
       </Badge> ‎
-      <Badge borderRadius='full' px='2' colorScheme='pink'>
+      <Badge borderRadius='full' px='2' colorScheme='yellow'>
         React
       </Badge> ‎
-      <Badge borderRadius='full' px='2' colorScheme='yellow'>
-        Chakra UI
-      </Badge> ‎
       <Badge borderRadius='full' px='2' colorScheme='green'>
-        Git
+        Blazor
       </Badge> ‎
       <Badge borderRadius='full' px='2' colorScheme='blue'>
-        GitHub
+        Chakra UI
       </Badge> ‎
       <Badge borderRadius='full' px='2' colorScheme='purple'>
-        Netlify
+        Git
       </Badge> ‎
       <Badge borderRadius='full' px='2' colorScheme='pink'>
-        VSCode
+        GitHub
       </Badge> ‎
       <Badge borderRadius='full' px='2' colorScheme='yellow'>
-        Eclipse
+        Netlify
       </Badge> ‎
       <Badge borderRadius='full' px='2' colorScheme='green'>
+        VSCode
+      </Badge> ‎
+      <Badge borderRadius='full' px='2' colorScheme='blue'>
+        Eclipse
+      </Badge> ‎
+      <Badge borderRadius='full' px='2' colorScheme='purple'>
         IntelliJ
+      </Badge> ‎
+      <Badge borderRadius='full' px='2' colorScheme='pink'>
+        Visual Studio
+      </Badge> ‎
+      <Badge borderRadius='full' px='2' colorScheme='yellow'>
+        .net
       </Badge>
   </Box> 
 }

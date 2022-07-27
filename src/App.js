@@ -12,6 +12,10 @@ import {
   Flex,
   Center,
   Spacer,
+  SimpleGrid,
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
   HStack,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
@@ -19,33 +23,37 @@ import { Logo } from './Logo';
 import Features from './Features';
 import Projects from './Projects';
 import Footer from './Footer';
+import ZenImage from './ZenImage';
 import NavBar from './NavBar';
 import ContactsBar from './ContactsBar';
-
+import '@fontsource/raleway/400.css'
+import '@fontsource/roboto/700.css'
 
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box bg="blue.100">‎</Box>
-      <Flex bg="blue.100">
-    <Box w='250px' h='10' bg='transparent' fontsize="3xl" fontWeight="bold" fontFamily="sans-serif"> ‎ ‎ Shriya Mandal </Box> 
-    <Spacer />
-    <Box w='300px' h='10' bg='transparent'> <NavBar> </NavBar></Box>
-    <Spacer />
-    <Box w='100px' h='10' bg='transparent'> <ColorModeSwitcher/></Box>
-  </Flex>
+      <NavBar></NavBar>
+     <SimpleGrid columns={2} spacing={10}>
       <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
+        <Grid minH="20vh" p={3}>
         
           <VStack spacing={8}>
             <Features/>
-            <Projects></Projects>
-            <ContactsBar></ContactsBar>
-            <Footer></Footer>
           </VStack>
         </Grid>
       </Box>
+      <Box textAlign="center" fontSize="xl">
+        <Grid minH="20vh" p={5}>
+        
+          <VStack spacing={10}>
+            <ZenImage/>
+          </VStack>
+        </Grid>
+      </Box>
+      </SimpleGrid>
+      <Projects/>
+      <ContactsBar></ContactsBar>
     </ChakraProvider>
   );
 }

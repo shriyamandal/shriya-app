@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
-
+import '@fontsource/raleway/400.css'
+import '@fontsource/roboto/700.css'
 
 ReactDOM.render(
   <StrictMode>
