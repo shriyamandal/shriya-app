@@ -1,4 +1,4 @@
-import { Box, Badge, Center, Button} from '@chakra-ui/react'
+import { Box, Badge, Center, Button, Link, Highlight} from '@chakra-ui/react'
 import Contacts from './Contacts';
 import Badges from './Badges';
 import DynamicShadowImage from './dynamic-shadow-image.tsx';
@@ -27,22 +27,24 @@ function Features(props) {
 
       <Box fontSize="md"> </Box>
 
-      <Box textAlign="center" fontSize="md">
+      <Box textAlign="center" fontSize="md" fontWeight="semibold">
         Hi there! 👋 <br></br>
         Thank you for visiting my website! <br></br>
         Here's a little about me: <br></br>
         </Box>
-        <Box textAlign="left" fontSize="md">
-        ‎ • I'm a research assistant in UNC's Computer Science department and I was a SWE intern @ CarMax this summer! <br></br>
-        ‎ • HackNC 2021 organizer, Pearl Hacks 2022 organizer and Girls Who Code teaching assistant <br></br>
-        ‎ • Passionate about the outdoors, travel, gardening and introducing other women to CS! <br></br>
-        ‎ • Always looking for new opportunities, contact me if interested! :) <br></br>
+        <Box textAlign="left" fontSize="md" >
+        
+        • I'm a <b>research assistant</b> in UNC's Computer Science department and I was a <b> SWE intern @ CarMax</b> this summer! <br></br>
+        • HackNC 2021 organizer, Pearl Hacks 2022 organizer and Girls Who Code teaching assistant <br></br>
+        • Passionate about the outdoors, travel, gardening and introducing other women to CS! <br></br>
+        • Always looking for new opportunities, contact me if interested! :) 
+        <br></br>
+
    </Box>
    <br></br>
    <Badges></Badges>
 <br></br>
-   <Button colorScheme='blue' size="sm">View my resume! </Button>
-
+<Link href='https://drive.google.com/file/d/1aYNCY7PfOLeYQnMUp9MY6nczhTOJhFgD/view'><Button colorScheme='blue'  variant='solid' size="sm">View my resume! </Button></Link>
   </Box>
   }
   

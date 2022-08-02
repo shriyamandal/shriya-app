@@ -16,6 +16,7 @@ import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
+  Heading,
   HStack,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
@@ -26,13 +27,15 @@ import Footer from './Footer';
 import ZenImage from './ZenImage';
 import NavBar from './NavBar';
 import ContactsBar from './ContactsBar';
-import '@fontsource/raleway/400.css'
-import '@fontsource/roboto/700.css'
+import '@fontsource/aclonica/400.css'
+import '@fontsource/open-sans/700.css'
+import custTheme from './theme';
+
 
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider theme={custTheme}>
       <NavBar></NavBar>
      <SimpleGrid columns={2} spacing={10}>
       <Box textAlign="center" fontSize="xl">
@@ -54,6 +57,7 @@ function App() {
       </SimpleGrid>
       <Projects/>
       <ContactsBar></ContactsBar>
+      <Footer></Footer>
     </ChakraProvider>
   );
 }

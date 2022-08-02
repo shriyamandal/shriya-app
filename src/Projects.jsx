@@ -14,7 +14,7 @@ function Projects(props) {
     return <Box id="Projects" p={5}>
       <br></br>
       <Center fontSize="2xl" fontWeight="bold" color="blue.500"> Projects </Center>
-    <Box fontSize='md' textAlign = "left"  fontWeight="semibold"> Below are some projects that I have been working on or completed!
+    <Box fontSize='md' textAlign = "left"  fontWeight="medium"> Below are some projects that I have been working on or completed!
     The code for my research and Monty Python bridge scene project is available upon request. </Box>
     <br></br>
     <Center>
@@ -23,7 +23,7 @@ function Projects(props) {
   <Box textAlign="left" fontSize="md" fontStyle="italic"> A retro styled application with an interactive GUI to help students at UNC 
   manage online courses. </Box>
   <Box textAlign="left" fontSize="md"> </Box>
-  <UnorderedList textAlign="left" fontSize="md">
+  <UnorderedList textAlign="left" fontSize="sm">
     <ListItem> Utilized Python, Tkinter, Git and VSCode. </ListItem>
     <ListItem> Worked on a team to create an app that allowed students to pair their courses with their Zoom links, 
       played calming music, linked to mental health and university resources and calculated courses grades. </ListItem>
@@ -46,7 +46,7 @@ function Projects(props) {
   <Box textAlign="left" fontSize="md" fontStyle="italic"> A minute long, interactive animation
    of the bridge scene from Monty Python, complete with knights falling into the gorge. </Box>
   <Box textAlign="left" fontSize="md"> </Box>
-  <UnorderedList textAlign="left" fontSize="md">
+  <UnorderedList textAlign="left" fontSize="sm">
     <ListItem> Utilized Java, Java Swing, ObjectEditor and Eclipse IDE. </ListItem>
     <ListItem> Implemented using the model view controller and observer design patterns. </ListItem>
     <ListItem> Worked on the project over a course of 4 weeks, and used fundamental concepts such
@@ -59,15 +59,15 @@ function Projects(props) {
 <Box bg='blue.100' w='80%' p={4} color='black'>
   <Box fontSize="lg" fontWeight="bold"> State by State (work in progress) </Box>
   <Box textAlign="left" fontSize="md" fontStyle="italic"> A fun application which returns different maps of the 
-  United States and quizzes on the user on what the map represents </Box>
+  United States and quizzes on the user on what each map represents </Box>
   <Box textAlign="left" fontSize="md"> </Box>
-  <UnorderedList textAlign="left" fontSize="md">
-    <ListItem> Utilized JavaScript, HTML, React, Chakra UI, Netlify and VSCode. </ListItem>
-    <ListItem> A project based on my interests: compares things state by state by education, abortion access and more. </ListItem>
+  <UnorderedList textAlign="left" fontSize="sm">
+    <ListItem> Utilized JavaScript, HTML, React, Chakra UI, and VSCode. </ListItem>
+    <ListItem> A project based on my interests: compares states by education, abortion access and more. </ListItem>
   </UnorderedList>
   <Link
               color="blue.600"
-              href="https://github.com/shriyamandal/shriya-personal-site"
+              href="https://github.com/shriyamandal/"
               fontSize="md"
               target="_blank"
               rel="noopener noreferrer"
