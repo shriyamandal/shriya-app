@@ -30,7 +30,9 @@ import ContactsBar from './ContactsBar';
 import '@fontsource/aclonica/400.css'
 import '@fontsource/open-sans/700.css'
 import custTheme from './theme';
+import { fairyDustCursor } from 'cursor-effects';
 
+new fairyDustCursor({colors: ["#FFC0CB", "#00ff00", "#0000ff"]});
 
 
 function App() {
